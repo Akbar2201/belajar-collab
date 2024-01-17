@@ -1,9 +1,9 @@
 def tambah(a,b):
   return a + b
-def kurang(a,b) :
-  return a - b
-def perkalian(a,b) :
-  return a * b
+def kurang(bil_a,bil_b) :
+  return bil_a - bil_b
+def perkalian(x,y) :
+  return x * y
   
 print("Pilih operasi :")
 print("1. Penjumlahan")
@@ -19,9 +19,9 @@ if pilihan in ('1', '2', '3'):
   if pilihan == '1':
     print(angka1, "+", angka2, "=", tambah(angka1, angka2))
   elif pilihan == '2':
-    print(angka1, "-", angka2, "=", tambah(angka1, angka2))
+    print(angka1, "-", angka2, "=", kurang(angka1, angka2))
    elif pilihan == '3':
-    print(angka1, "*", angka2, "=", tambah(angka1, angka2))
+    print(angka1, "*", angka2, "=", perkalian(angka1, angka2))
   else
     print("Pilihan tidak valid")
  
