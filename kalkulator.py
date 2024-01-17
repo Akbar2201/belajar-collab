@@ -4,7 +4,7 @@ def kurang(bil_a,bil_b) :
   return bil_a - bil_b
 def perkalian(x,y) :
   return x * y
-  
+
 print("Pilih operasi :")
 print("1. Penjumlahan")
 print("2. Pengurangan")
@@ -24,5 +24,3 @@ if pilihan in ('1', '2', '3'):
     print(angka1, "*", angka2, "=", perkalian(angka1, angka2))
   else
     print("Pilihan tidak valid")
- 
-    
