@@ -2,8 +2,8 @@ def tambah(a,b):
   return a + b
 def kurang(bil_a,bil_b) :
   return bil_a - bil_b
-def perkalian(x,y) :
-  return x * y
+def perkalian(angka1,angka2) :
+  return angka1 * angka2
   
 print("Pilih operasi :")
 print("1. Penjumlahan")
