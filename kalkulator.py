@@ -2,9 +2,15 @@ def tambah(a,b):
   return a + b
 def kurang(bil_a,bil_b) :
   return bil_a - bil_b
+<<<<<<< HEAD
 def perkalian(x,y) :
   return x * y
 
+=======
+def perkalian(angka1,angka2) :
+  return angka1 * angka2
+  
+>>>>>>> 4d2d4553286121126ee8f09230a6b21a1d5eae48
 print("Pilih operasi :")
 print("1. Penjumlahan")
 print("2. Pengurangan")
