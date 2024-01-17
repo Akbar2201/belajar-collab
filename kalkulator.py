@@ -1,8 +1,8 @@
 def tambah(a,b):
   return a + b
-def kurang(bil_a,bil_b) :
-  return bil_a - bil_b
-def perkalian(x,y) :
+def kurang(x,y):
+  return x - y
+def perkalian(x,y):
   return x * y
 def pembagian(a,b) :
   return a / b
