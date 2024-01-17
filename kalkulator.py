@@ -14,5 +14,9 @@ if pilihan in ('1', '2', '3'):
 
   if pilihan == '1':
     print(angka1, "+", angka2, "=", tambah(angka1, angka2))
+  elif pilihan == '2':
+    print(angka1, "-", angka2, "=", tambah(angka1, angka2))
   else
     print("Pilihan tidak valid")
+ 
+    
