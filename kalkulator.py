@@ -20,7 +20,7 @@ if pilihan in ('1', '2', '3'):
     print(angka1, "+", angka2, "=", tambah(angka1, angka2))
   elif pilihan == '2':
     print(angka1, "-", angka2, "=", kurang(angka1, angka2))
-   elif pilihan == '3':
+  elif pilihan == '3':
     print(angka1, "*", angka2, "=", perkalian(angka1, angka2))
   else
     print("Pilihan tidak valid")
