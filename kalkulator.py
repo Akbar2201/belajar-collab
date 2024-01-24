@@ -11,12 +11,8 @@ print("Pilih operasi :")
 print("1. Penjumlahan")
 print("2. Pengurangan")
 print("3. Perkalian")
-<<<<<<< HEAD
 print("4. Pembagian")
 
-=======
-print("4. pembagian")
->>>>>>> 37d6d5e (penambahan pembagian)
 pilihan = input("Masukkan pilihan (1/2/3) : ")
 
 if pilihan in ('1', '2', '3'):
@@ -30,3 +26,4 @@ if pilihan in ('1', '2', '3'):
   elif pilihan == '3':
     print(angka1, "*", angka2, "=", perkalian(angka1, angka2))
     print("Pilihan tidak valid")
+#ini uji coba
