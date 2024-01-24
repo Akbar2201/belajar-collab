@@ -28,3 +28,5 @@ if pilihan in ('1', '2', '3'):
   elif pilihan == '4':
     print(angka1, "/", angka2, "=", pembagian(angka1, angka2))
 
+  else
+    print("pilihan tidak valid")
