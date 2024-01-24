@@ -25,5 +25,7 @@ if pilihan in ('1', '2', '3'):
     print(angka1, "-", angka2, "=", kurang(angka1, angka2))
   elif pilihan == '3':
     print(angka1, "*", angka2, "=", perkalian(angka1, angka2))
-    print("Pilihan tidak valid")
-
+  elif pilihan == '4':
+    print(angka1, "/", angka2, "=", pembagian(angka1, angka2))
+  else
+    print("pilihan tidak valid")
