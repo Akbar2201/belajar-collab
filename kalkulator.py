@@ -15,7 +15,7 @@ print("4. Pembagian")
 
 pilihan = input("Masukkan pilihan (1/2/3/4) : ")
 
-if pilihan in ('1', '2', '3'):
+if pilihan in ('1', '2', '3', '4'):
   angka1 = int(input("Masukkan bilangan pertama : "))
   angka2 = int(input("Masukkan bilangab kedua : "))
 
