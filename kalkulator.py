@@ -29,4 +29,4 @@ if pilihan in ('1', '2', '3'):
     print(angka1, "/", angka2, "=", pembagian(angka1, angka2))
 
   else
-    print("pilihan tidak valid")
+    print("Pilihan tidak valid")
